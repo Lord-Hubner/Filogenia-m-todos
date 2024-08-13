@@ -5,6 +5,7 @@ from io import StringIO
 import re
 import string
 from matplotlib import pyplot as plt
+import random
 
 def PrintMatrix(matrix : list):
     for i in matrix:
@@ -91,7 +92,7 @@ def ConnectBranches(tree: str, indexToConnect: int, mainBranchIndex: int):
     indexToGo = BalanceParenthesis(0, tree)
     
     target = tree[indexToGo:]
-    match = re.search(r"\(PP\d{6}\.1,PP\d{6}\.1\)", target)
+    match = re.search(r"\([A-Z]{2}\d{6}\.1,[A-Z]{2}\d{6}\.1\)", target)
     branchToTransfer = target[match.start():match.end()]
     tree=tree[:tree.rfind(branchToTransfer)]
 
@@ -178,17 +179,13 @@ def BuildTree(distMatrix: list, organismsCodes: list) -> tuple[str, dict]:
 
 Entrez.email = 'dezinho_dh@hotmail.com'
 
-handle = Entrez.esearch('nucleotide', term='16S ribosomal RNA gene[Titl] NOT partial sequence[Titl] NOT uncultured[Titl] NOT clone[Titl]', retmax=10)
+handle = Entrez.esearch('nucleotide', term='16S ribosomal RNA gene[Titl] NOT partial sequence[Titl] NOT uncultured[Titl] NOT clone[Titl]', retmax=100)
 results = Entrez.read(handle)
 
-idList = results["IdList"]
-
+idList = random.sample(results["IdList"], 10)
 
 fetched = Entrez.efetch(db='nucleotide', id=idList, rettype="fasta")
-organismsOriginal = fetched.read().split('>')
-
-for i in range(10):
-    organismsOriginal[i] = organismsOriginal[i+1]
+organismsOriginal = fetched.read().split('>')[1:]
 
 listSequences = list()
 organismsNames = []
@@ -196,7 +193,7 @@ organismsCodes = []
 
 with open('seqs.fasta', 'w') as file:
     for item in organismsOriginal:
-        file.write(item)
+        file.write('>'+item[:item.rfind('\n')])
 
 for organism in organismsOriginal:
     organismsNames.append(organism[:organism.find('\n')])
@@ -229,8 +226,10 @@ print()
 for i in pointsMatrix:
     newMatrix = list()
     for j in i:
-        newMatrix.append(round(j**-1, 5) if j != 0 else 0)
+        newMatrix.append(0 if j == 0 else (-j) if j < 0 else round(j**-1, 5))
     distMatrix.append(newMatrix)
+
+    
 
 PrintMatrix(distMatrix)
 
@@ -281,7 +280,6 @@ for terminal in treeFile.get_terminals():
 # Phylo.draw_ascii(treeFile);
 # Phylo.draw(treeFile)    
 
-plt.figure(figsize=(15,10))
 Phylo.draw_ascii(treeFile);
 Phylo.draw(treeFile)    
 
