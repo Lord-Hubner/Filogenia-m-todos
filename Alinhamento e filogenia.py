@@ -17,7 +17,7 @@ def PrintMatrix(matrix : list):
 def SearchMinimum(distMatrix: list):
     currentMinimum: int = 99999
     currentMinimumIndexes = []
-    #i=linhas, j=colunas, k= alvo
+    #i=linhas, j=colunas, k=alvo
     i=0
     for k in range(1,10):    
         for j in range(k):   
@@ -102,12 +102,10 @@ def ConnectBranches(tree: str, indexToConnect: int, mainBranchIndex: int):
 
 def BuildTree(distMatrix: list, organismsCodes: list) -> tuple[str, dict]:
     tree:str = ""
-    alphabet:list = list(string.ascii_uppercase)
     minimumIndexesdict:dict = dict()
     currentMinimum:int = 100000
     currentMinimumIndexes:list = []
     secondaryBranchsSet:list = list()
-
 
     #Faz primeira iteração fora do loop pois é previsível, e para não atribuir a um galho secundário
     currentMinimum, currentMinimumIndexes = SearchMinimum(distMatrix)
@@ -125,7 +123,7 @@ def BuildTree(distMatrix: list, organismsCodes: list) -> tuple[str, dict]:
         
         currentMinimum, currentMinimumIndexes = SearchMinimum(distMatrix)
         if(currentMinimum) == 99999:
-            break
+            return tree
         distMatrix[currentMinimumIndexes[0]][currentMinimumIndexes[1]] = 99999
 
         if currentMinimumIndexes[0] in minimumIndexesdict:
@@ -144,7 +142,7 @@ def BuildTree(distMatrix: list, organismsCodes: list) -> tuple[str, dict]:
                         tree = ConnectBranches(tree, currentMinimumIndexes[1], currentMinimumIndexes[0])
                         secondaryBranchsSet.remove(item)
 
-            if len(minimumIndexesdict) == len(distMatrix):
+            if len(minimumIndexesdict) == len(distMatrix) and len(secondaryBranchsSet) == 0:
                 if tree[-1] == ',':
                     tree = tree[:-1]
                 tree = tree+';'  
@@ -240,15 +238,6 @@ indicesToAdd = 0
 i=0
 newTree=tree
 
-# while i <= len(newTree):
-#     current = newTree[i:i+10]
-#     if re.match(r'(PP|ON)[0-9]{6}\.1', current):
-#         for item in organismsNames:
-#             if item[0:10] == current:        
-#                 newTree= newTree[:i]+item[:len(item) if len(item) < 50 else 50]+newTree[i+10:]
-#                 i += 30
-#                 break
-#     i += 1
 
 handle = StringIO(newTree)
 treeFile = Phylo.read(handle, "newick")

@@ -1,0 +1,352 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.15)  16 AUG 2024 21:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"./Relatorio filogenia.tex"
+(Relatorio filogenia.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/base\ar
+ticle.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/base\si
+ze12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/geometr
+y\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/graphic
+s\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/generic/iftex
+\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/generic/iftex
+\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/geometr
+y\geometry.cfg))
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/generic/babel
+\babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count198
+\U@D=\dimen149
+\l@unhyphenated=\language79
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/generic/babel
+\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count199
+
+*************************************
+* Local config file bblopts.cfg used
+*
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/arabi\b
+blopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/babel-p
+ortuges\brazilian.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
+)
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/babel-p
+ortuges\portuguese.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+))
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/generic/babel
+/locale/pt\babel-portuguese.tex
+Package babel Info: Importing font and identification data for portuguese
+(babel)             from babel-pt.ini. Reported on input line 11.
+)
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/generic/babel
+/locale/pt\babel-brazilian.tex
+Package babel Info: Importing font and identification data for brazilian
+(babel)             from babel-pt-BR.ini. Reported on input line 11.
+)
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/base\t1
+enc.sty
+Package: t1enc 1994/06/01 Standard LaTeX package
+)
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/graphic
+s\epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/graphic
+s\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/graphic
+s\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/graphic
+s\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/graphic
+s-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/graphic
+s-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+\epsfxsize=\dimen152
+\epsfysize=\dimen153
+)
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/graphic
+s\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/graphic
+s-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/graphic
+s\mathcolor.ltx))
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/l3backe
+nd\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count266
+\l__pdf_internal_box=\box51
+) (Relatorio filogenia.aux
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+)
+\openout1 = `"Relatorio filogenia.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.45377pt
+* modes: 
+* h-part:(L,W,R)=(57.81621pt, 467.42169pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 729.41443pt, 57.81621pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=467.42169pt
+* \textheight=729.41443pt
+* \oddsidemargin=-0.00002pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=18.06749pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/context/base/
+mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count267
+\scratchdimen=\dimen154
+\scratchbox=\box52
+\nofMPsegments=\count268
+\nofMParguments=\count269
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count270
+\MPscratchDim=\dimen155
+\MPnumerator=\count271
+\makeMPintoPDFobject=\count272
+\everyMPtoPDFconversion=\toks20
+)
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/epstopd
+f-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\AndréGustavoDessoyHu\AppData\Local\Programs\MiKTeX\tex/latex/00mikte
+x\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 36.
+ [1
+
+{C:/Users/AndréGustavoDessoyHu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.ma
+p}]
+<matrizPontos.png, id=10, 430.60875pt x 139.27031pt>
+File: matrizPontos.png Graphic file (type png)
+<use matrizPontos.png>
+Package pdftex.def Info: matrizPontos.png  used on input line 76.
+(pdftex.def)             Requested size: 430.60768pt x 139.26996pt.
+<matrizDistancia.png, id=12, 421.575pt x 126.4725pt>
+File: matrizDistancia.png Graphic file (type png)
+<use matrizDistancia.png>
+Package pdftex.def Info: matrizDistancia.png  used on input line 84.
+(pdftex.def)             Requested size: 421.57396pt x 126.47218pt.
+ [2] [3 <./matrizPontos.png> <./matrizDistancia.png>]
+<SearchMinimum.png, id=22, 464.4853pt x 280.04625pt>
+File: SearchMinimum.png Graphic file (type png)
+<use SearchMinimum.png>
+Package pdftex.def Info: SearchMinimum.png  used on input line 99.
+(pdftex.def)             Requested size: 464.48418pt x 280.04555pt.
+<BuildTree.png, id=23, 555.57562pt x 244.66406pt>
+File: BuildTree.png Graphic file (type png)
+<use BuildTree.png>
+Package pdftex.def Info: BuildTree.png  used on input line 109.
+(pdftex.def)             Requested size: 426.79134pt x 187.95137pt.
+[4 <./SearchMinimum.png>]
+<FirstHalf.png, id=28, 724.20563pt x 398.23781pt>
+File: FirstHalf.png Graphic file (type png)
+<use FirstHalf.png>
+Package pdftex.def Info: FirstHalf.png  used on input line 136.
+(pdftex.def)             Requested size: 724.20386pt x 398.23683pt.
+
+Overfull \hbox (256.78217pt too wide) in paragraph at lines 136--138
+ [] 
+ []
+
+<SecondHalf.png, id=29, 774.64406pt x 356.0803pt>
+File: SecondHalf.png Graphic file (type png)
+<use SecondHalf.png>
+Package pdftex.def Info: SecondHalf.png  used on input line 145.
+(pdftex.def)             Requested size: 774.64217pt x 356.07944pt.
+
+Overfull \hbox (307.22047pt too wide) in paragraph at lines 145--146
+ [] 
+ []
+
+[5 <./BuildTree.png>] [6 <./FirstHalf.png>] [7 <./SecondHalf.png>]
+<filogenia.png, id=43, 785.5749pt x 480.5955pt>
+File: filogenia.png Graphic file (type png)
+<use filogenia.png>
+Package pdftex.def Info: filogenia.png  used on input line 161.
+(pdftex.def)             Requested size: 426.79134pt x 261.1017pt.
+ [8 <./filogenia.png>]
+<Árvore NCBI.jpeg, id=48, 406.51875pt x 217.5628pt>
+File: Árvore NCBI.jpeg Graphic file (type jpg)
+<use Árvore NCBI.jpeg>
+Package pdftex.def Info: Árvore NCBI.jpeg  used on input line 178.
+(pdftex.def)             Requested size: 406.51775pt x 217.56227pt.
+ [9 <./Árvore NCBI.jpeg>] [10] (Relatorio filogenia.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3203 strings out of 474486
+ 57743 string characters out of 5736203
+ 1935542 words of memory out of 5000000
+ 25474 multiletter control sequences out of 15000+600000
+ 564925 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,6n,79p,1184b,270s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\AndréGustavoDessoyHu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ecti1200.pk> <C:\Users\AndréGustavoDessoyHu\AppData\Local\MiKTeX\f
+onts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\AndréGustavoDessoyHu\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\
+AndréGustavoDessoyHu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
+crm1200.pk> <C:\Users\AndréGustavoDessoyHu\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\AndréGustavoDessoyHu\AppData\Local
+\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\AndréGustavo
+DessoyHu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
+Output written on "Relatorio filogenia.pdf" (10 pages, 272766 bytes).
+PDF statistics:
+ 302 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+
