@@ -1,4 +1,4 @@
-#Filogenia
+# Filogenia
 
 Algoritmo para construção de árvores de filogenia em formato Newick e posterior transformação em imagem usando scores de semelhança baseados em alinhamentos de semelhança, implementado em Python com a ajuda de utilizades da biblioteca Bio.
 
